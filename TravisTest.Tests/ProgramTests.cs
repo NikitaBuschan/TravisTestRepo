@@ -6,7 +6,7 @@ namespace TravisTest.Tests
     public class ProgramTests
     {
         [Fact]
-        public int Create_God_Goooooood()
+        public void Create_God_Goooooood()
         {
             var nikita = new A();
 
