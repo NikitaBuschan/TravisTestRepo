@@ -22,6 +22,7 @@ namespace TravisTest
             Console.WriteLine("have a good day");
             var nikita = new A();
             Console.WriteLine($"Name: {nikita.name}, surname: {nikita.surname}");
+            int
         }
     }
 }
