@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TravisTestRepo\\TravisTest\\TravisTest\\TravisTest.csproj": {}
+    "E:\\TravisTestRepo\\TravisTest\\TravisTest.csproj": {}
   },
   "projects": {
-    "E:\\TravisTestRepo\\TravisTest\\TravisTest\\TravisTest.csproj": {
+    "E:\\TravisTestRepo\\TravisTest\\TravisTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TravisTestRepo\\TravisTest\\TravisTest\\TravisTest.csproj",
+        "projectUniqueName": "E:\\TravisTestRepo\\TravisTest\\TravisTest.csproj",
         "projectName": "TravisTest",
-        "projectPath": "E:\\TravisTestRepo\\TravisTest\\TravisTest\\TravisTest.csproj",
+        "projectPath": "E:\\TravisTestRepo\\TravisTest\\TravisTest.csproj",
         "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
-        "outputPath": "E:\\TravisTestRepo\\TravisTest\\TravisTest\\obj\\",
+        "outputPath": "E:\\TravisTestRepo\\TravisTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

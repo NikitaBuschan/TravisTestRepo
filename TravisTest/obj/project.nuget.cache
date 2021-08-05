@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IpjepeAFLOAiYLnJDDRPDbAfrJEWz2AeYVcIZjKKYEjNM4mfh0OiXgvGN9iQd5UJsxRCmGM4XfnqPzSarbNgCQ==",
+  "dgSpecHash": "eNRqN9R4/bDQHaQFGGCekJTW0lDRKg1Y52r0W+xdg6dtm8jsqdvFRPt0csBlXE/9aeU8xquoqAsyzgPfFb6PSw==",
   "success": true,
-  "projectFilePath": "E:\\TravisTestRepo\\TravisTest\\TravisTest\\TravisTest.csproj",
+  "projectFilePath": "E:\\TravisTestRepo\\TravisTest\\TravisTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikit\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
