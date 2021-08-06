@@ -8,4 +8,4 @@ script:
   - dotnet build
   - dotnet test
 after_script:
-  - dotnet <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)
