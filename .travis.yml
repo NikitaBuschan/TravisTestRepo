@@ -1,6 +1,6 @@
 language: csharp
-solution: TravisTest.sln
 mono: none
 dotnet: 3.1
 script:
- - dotnet restore
+ - bash ./TravisTest/TravisTest.csproj
+ - bach ./TravisTest.Tests/TravisTest.Tests.csproj
