@@ -1,15 +1,11 @@
 language: csharp
-dist: xenial
-dotnet: 3.1
 os: linux
-before_install:
-  - wget --no-check-certificate https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
-install:
-  - mono ./nuget.exe install NUnit.Runners -Version 3.0.1 -OutputDirectory testrunner
-before_script:
-  - dotnet restore
+mono: none
+dotnet: 3.1
+dist: xenial
 script:
-  - dotnet buld
+  - dotnet restore
+  - dotnet build
+  - dotnet test
 after_script:
-  - dotnet test ./TravisTest.Tests -c Release -f netcoreapp3.0
-  - bash <(curl -s https://codecov.io/bash)
+  - dotnet <(curl -s https://codecov.io/bash)
