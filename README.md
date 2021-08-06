@@ -115,7 +115,7 @@ test_script:
 - codecov -f "MyProject_coverage.xml"
 ```
 
-#### Codecov-exe using NuGet
+#### Codecov-exe using NuGet 
 
 Using this method you can cache your packages.config file.
 
