@@ -1,1 +1,1 @@
-[![codecov](https://codecov.io/gh/NikitaBuschan/Astrology/branch/master/graph/badge.svg?token=FR03VU2EPJ)](https://codecov.io/gh/NikitaBuschan/Astrology)
+[![codecov](https://codecov.io/gh/NikitaBuschan/TravisTestRepo/branch/master/graph/badge.svg?token=YDXZDOY1NE)](https://codecov.io/gh/NikitaBuschan/TravisTestRepo)
