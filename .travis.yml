@@ -6,6 +6,6 @@ dist: xenial
 script:
   - dotnet restore
   - dotnet build
-  - dotnet test ./TravisTest.Tests -c Release -f 3.1
+  - dotnet test ./TravisTest.Tests -c Release -f  netcoreapp3.1.411
 after_script:
   - bash <(curl -s https://codecov.io/bash)
