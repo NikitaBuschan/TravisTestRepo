@@ -8,4 +8,5 @@ script:
   - dotnet build
   - dotnet test
 after_script:
+  - bach coverage
   - bash <(curl -s https://codecov.io/bash)
