@@ -1,8 +1,6 @@
 # [Codecov](https://codecov.io) C# Example
 
-[![codecov](https://codecov.io/gh/codecov/example-csharp/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/example-csharp)
-[![AppVeyor](https://img.shields.io/appveyor/ci/stevepeak/example-csharp.svg)](https://ci.appveyor.com/project/stevepeak/example-csharp/branch/master)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcodecov%2Fexample-csharp.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcodecov%2Fexample-csharp?ref=badge_shield)
+[![codecov](https://codecov.io/gh/NikitaBuschan/TravisTestRepo/branch/master/graph/badge.svg?token=YDXZDOY1NE)](https://codecov.io/gh/NikitaBuschan/TravisTestRepo)
 
 ## Guide
 ### AppVeyor Setup
