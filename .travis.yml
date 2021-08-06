@@ -11,5 +11,3 @@ script:
 after_script:
   - make coverage
   - bash <(curl -s https://codecov.io/bash)
-codecov:
-  token: 62ece7e0-0235-4543-9ec6-3277e5931647
