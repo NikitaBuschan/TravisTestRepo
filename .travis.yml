@@ -7,7 +7,7 @@ before_install:
 install:
   - mono ./nuget.exe install NUnit.Runners -Version 3.0.1 -OutputDirectory testrunner
 script:
-  - dotnet build
+  - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 after_script:
   - dotnet coverage
   - bash <(curl -s https://codecov.io/bash)
