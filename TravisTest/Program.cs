@@ -19,7 +19,7 @@ namespace TravisTest
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("have a good day");
-            Console.WriteLine($"Name: {nikita.name}, surname: {nikita.surname}");
+            //Console.WriteLine($"Name: {nikita.name}, surname: {nikita.surname}");
         }
     }
 }
