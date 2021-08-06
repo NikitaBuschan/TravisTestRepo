@@ -5,4 +5,4 @@ sudo: required
 script:
   - dotnet restore
   - dotnet build
-  - bash <(curl -s https://codecov.io/bash)
+  - dotnet <(curl -s https://codecov.io/bash)
