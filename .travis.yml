@@ -5,5 +5,4 @@ sudo: required
 script:
   - dotnet restore
   - dotnet build
-after_script:
-  - bash <(curl -s https://codecov.io/bash)
+dotnet tool install -g Codecov.Tool --add-source "https://ci.appveyor.com/nuget/codecov-exe" --version "1.10.0-unstable0001"
