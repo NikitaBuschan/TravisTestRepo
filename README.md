@@ -1,1 +1,2 @@
 [![codecov](https://codecov.io/gh/NikitaBuschan/TravisTestRepo/branch/master/graph/badge.svg?token=YDXZDOY1NE)](https://codecov.io/gh/NikitaBuschan/TravisTestRepo)
+image:https://travis-ci.com/NikitaBuschan/TravisTestRepo.svg?token=zTJhdss2jK2vqoAWTuwF&branch=master["Build Status", link="https://travis-ci.com/NikitaBuschan/TravisTestRepo"]
