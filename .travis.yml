@@ -6,8 +6,11 @@ before_install:
   - wget --no-check-certificate https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 install:
   - mono ./nuget.exe install NUnit.Runners -Version 3.0.1 -OutputDirectory testrunner
+before_script:
+  - dotnet restore
 script:
   - make compile test
+  - dotnet buld
 after_script:
-  - make coverage
+  - dotnet test ./TravisTest.Tests -c Release -f netcoreapp3.0
   - bash <(curl -s https://codecov.io/bash)
