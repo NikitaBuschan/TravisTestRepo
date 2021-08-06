@@ -9,7 +9,6 @@ install:
 before_script:
   - dotnet restore
 script:
-  - make compile test
   - dotnet buld
 after_script:
   - dotnet test ./TravisTest.Tests -c Release -f netcoreapp3.0
