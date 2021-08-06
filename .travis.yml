@@ -1,0 +1,2 @@
+nuget restore CodecovProject.sln
+msbuild /p:Configuration=Release CodecovProject.sln
